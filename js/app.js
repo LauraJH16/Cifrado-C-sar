@@ -72,8 +72,8 @@ function decipher(phrase){
             if (value==true){
                 
                 //Llamamos a las funciones:
-                alert('CIFRADO   ->    ' + cipher(order));
-                alert('DECIFRADO   ->    ' + decipher(cipher(order)));
+                document.write('CIFRADO   ->    ' + cipher(order));
+                document.write('<p> \n\n DESCIFRADO   ->    ' + decipher(cipher(order)));
             }
             
             //Mensaje si ha ingresado numeros:
