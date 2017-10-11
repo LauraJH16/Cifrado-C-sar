@@ -73,7 +73,7 @@ function decipher(phrase){
                 
                 //Llamamos a las funciones:
                 document.write('CIFRADO   ->    ' + cipher(order));
-                document.write('<p> \n\n DESCIFRADO   ->    ' + decipher(cipher(order)));
+                document.write('<p> DESCIFRADO   ->    ' + decipher(cipher(order)));
             }
             
             //Mensaje si ha ingresado numeros:
