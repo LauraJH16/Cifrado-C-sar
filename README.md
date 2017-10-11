@@ -76,8 +76,8 @@ Si(order es distinto de ""(vacio))Entonces{
 
         Si (value = true) Entonces{
 
-        Alerta ('Cifrado  ->' + (LLamamos a la funcion Cipher) Cipher(order))
-        Alerta ('Decifrado  ->' + (LLamamos a la funcion Decipher) Decipher(order))
+        Escribir en documento ('Cifrado  ->' + (LLamamos a la funcion Cipher) Cipher(order))
+        Escribir en documento ('<p> Decifrado  ->' + (LLamamos a la funcion Decipher) Decipher(order))
 
         }
     }
